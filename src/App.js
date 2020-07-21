@@ -10,7 +10,6 @@ import './App.css';
 import Particles from 'react-particles-js';
 
 
-
 const particlesOptions ={
   particles: {
     number:{
@@ -22,7 +21,6 @@ const particlesOptions ={
     }
   }                
 }
-
 
 const initialState = {
       input:'',
@@ -82,8 +80,6 @@ calculateFaceLocation = (region, width, height) => {
     }
   }
  
-
-
   calculateFacesLocation = (data) => {
     const clarifaiFaceRegions = data.outputs[0].data.regions
     const image = document.getElementById('inputimage')
